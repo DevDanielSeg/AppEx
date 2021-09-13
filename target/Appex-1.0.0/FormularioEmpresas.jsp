@@ -41,7 +41,7 @@
     </head>
     <body>
        
-        <h1>Ingreso de empresa al mundo Appex</h1>
+        <h1>Ingreso de empresa al mundo AppEx</h1>
         <form action="action">
             <div class="form-group">
                 <label for="nombreOrganizacion">Nombre de la Empresa</label>
