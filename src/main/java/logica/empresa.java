@@ -8,7 +8,7 @@ package logica;
  *
  * @author Daniel Segura
  */
-public class empresa {
+public class Empresa {
     private int id;
     private String nombreEmpresa;
     private String nit;
@@ -100,7 +100,7 @@ public class empresa {
         this.ciudadMunicipio = ciudadMunicipio;
     }
 
-    public empresa(int id, String nombreEmpresa, String nit, String nombreRepLegal, String noIdentidad, boolean tipoEmpresa, int codigoCiiu, boolean estadoEmpresa, String departamento, String ciudadMunicipio) {
+    public Empresa(int id, String nombreEmpresa, String nit, String nombreRepLegal, String noIdentidad, boolean tipoEmpresa, int codigoCiiu, boolean estadoEmpresa, String departamento, String ciudadMunicipio) {
         this.id = id;
         this.nombreEmpresa = nombreEmpresa;
         this.nit = nit;
@@ -113,7 +113,7 @@ public class empresa {
         this.ciudadMunicipio = ciudadMunicipio;
     }
     
-    public empresa( String nombreEmpresa, String nit, String nombreRepLegal, String noIdentidad, boolean tipoEmpresa, int codigoCiiu, boolean estadoEmpresa, String departamento, String ciudadMunicipio) {
+    public Empresa( String nombreEmpresa, String nit, String nombreRepLegal, String noIdentidad, boolean tipoEmpresa, int codigoCiiu, boolean estadoEmpresa, String departamento, String ciudadMunicipio) {
         
         this.nombreEmpresa = "";
         this.nit = "";
