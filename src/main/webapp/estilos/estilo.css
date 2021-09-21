@@ -78,6 +78,9 @@ input[type="radio"]{
     margin: 1em 0.5em 1em; 
 }
 
+.oculto{
+    display: none;
+}
 button{
     font-family:  var(--font-secondary);
     border-radius: 0.5em;

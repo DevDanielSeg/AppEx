@@ -44,8 +44,8 @@
         <h1>Ingreso de empresa al mundo AppEx</h1>
         <form action="action">
             <div class="form-group">
-                <label for="nombreOrganizacion">Nombre de la Empresa</label>
-                <input id="nombreOrganizacion" name="nombreOrganizacion" type="text" maxlength="50" placeholder="Nombre del negocio" required/>
+                <label for="nombreEmpresa">Nombre de la Empresa</label>
+                <input id="nombreEmpresa" name="nombreEmpresa" type="text" maxlength="50" placeholder="Nombre del negocio" required/>
             </div>
             <div class="form-group">
                 <label for="nit">NIT de empresa</label>
@@ -56,8 +56,8 @@
                 <input id="nombreRepLegal" name="nombreRepLegal" type="text" maxlength="50" placeholder="Nombre" required/>
             </div>
             <div class="form-group">
-                <label for="NoIdentidad">Número del Documento de identidad</label>
-                <input id="NoIdentidad" type="number" name="NoIdentidad" maxlength="15" placeholder="Numero de Identidad" title="ingresa un valor, este campo solo acepta numeros" required/>
+                <label for="noIdentidad">Número del Documento de identidad</label>
+                <input id="noIdentidad" type="number" name="noIdentidad" maxlength="15" placeholder="Numero de Identidad" title="ingresa un valor, este campo solo acepta numeros" required/>
             </div>
             <div class="form-group">
                 <label>Tipo de Empresa</label><br>
@@ -112,10 +112,10 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="CiudadMunicipio">Ciudad ó Municipio</label>
-                <select class="form-control" id="CiudadMunicipio" name="CiudadMunicipio" title="Por favor Selecciona una opción" required>
+                <label for="ciudadMunicipio">Ciudad ó Municipio</label>
+                <select class="form-control" id="ciudadMunicipio" name="ciudadMunicipio" title="Por favor Selecciona una opción" required>
                     <option value="">Seleccione una opción</option>
-                    <option value="Abrego">Abrego</option>
+                    <option value="Abrego" class="oculto">Abrego</option>
                     <option value="Abriaquí">Abriaquí</option>
                     <option value="Acacías">Acacías</option>
                     <option value="Acandí">Acandí</option>
